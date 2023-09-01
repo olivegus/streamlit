@@ -27,20 +27,20 @@ colors = [
     "#8db6d8",
 ]
 months = [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
+    "JAN",
+    "FEV",
+    "MAR",
+    "ABR",
+    "MAI",
+    "JUN",
+    "JUL",
+    "AGO",
+    "SET",
+    "OUT",
+    "NOV",
+    "DEZ",
 ]
-st.title("2022 Sales Dashboard")
+st.title("ITBI Visualization")
 
 @st.cache_data
 def get_data():
