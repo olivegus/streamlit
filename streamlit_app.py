@@ -11,7 +11,6 @@ import altair as alt
 import pandas as pd
 import numpy as np
 
-st.set_page_config(layout="wide")
 regions = ["LATAM", "EMEA", "NA", "APAC"]
 colors = [
     "#aa423a",
